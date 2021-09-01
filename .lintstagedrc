@@ -1,6 +1,6 @@
 {
-  "*.{js,ts,css,md}": [
-    "eslint --fix --max-warnings=0 '.'",
+  "*.{js,css,md,ts,tsx}": [
+    "eslint --fix --max-warnings 0",
     "prettier --write",
     "npm run test:staged"
   ]

@@ -1,7 +1,6 @@
 {
   "name": "node-js-template",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +8,6 @@
     "format": "prettier . --write",
     "lint": "eslint . --fix",
     "prepare": "husky install",
-    "postinstall": "husky install",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
