@@ -2,16 +2,13 @@
   "env": {
     "browser": true,
     "es2021": true,
+    "jest": true,
     "node": true
   },
-  "extends": [
-    "standard",
-    "prettier"
-  ],
+  "extends": ["standard", "prettier"],
   "parserOptions": {
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "rules": {
-  }
+  "rules": {}
 }
